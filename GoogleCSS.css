@@ -1,3 +1,12 @@
+a {
+	text-decoration:none;
+}
+p {
+	position:relative;
+
+	font-size:small;
+	font-family:Arial, sans-serif;
+}
 .button {
 	color:#757575;
 	background-color:#f2f2f2;
@@ -9,7 +18,16 @@
 	font-family:Arial, sans-serif;
 	font-weight:bold;
 	font-size:13px;
-
+	line-height:27px;
+	padding:0px 16px;
+	text-align:center;
+}
+#btn2 {
+	width:150px;
+}
+.button:hover {
+	color:#222;
+	border:1px solid #d9d9d9;
 }
 #middle {
 	margin-top:90px;
@@ -24,8 +42,16 @@ img {
 	width:42.5%;
 	line-height:36px;
 	margin-top:25px;
-	border:solid gray 1px;
+	border:solid #d9d9d9 1px;
 	border-radius:0;
 	font-family:Arial, sans-serif;
-	font-size:14px
+	font-size:14px;
+	background-color:transparent;
+	color:#000;
+}
+#searchbox:hover {
+	border-color:gray;
+}
+#searchbox:focus {
+	border-color:blue;
 }
