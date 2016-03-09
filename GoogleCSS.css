@@ -1,0 +1,18 @@
+#center {
+	margin-top:90px;
+	height:378px;
+	width:1354px;
+}
+img {
+	margin-left:419px;
+}
+#searchbox {
+	margin-left:385px;
+	width:582px;
+	line-height:36px;
+	margin-top:7px;
+	border:solid gray 1px;
+	border-radius:0;
+	font-family:Arial, sans-serif;
+	font-size:14px
+}
