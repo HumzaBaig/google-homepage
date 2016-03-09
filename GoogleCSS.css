@@ -69,6 +69,23 @@ p {
 	height:378px;
 	width:1354px; 
 } 
+#footer {
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	line-height:40px;
+	width:100%;
+	margin-top:592px;
+	background-color:#e4e4e4;
+	opacity: .75;
+	font-size:14px;
+}
+#bottomright {
+	padding-right:30px;
+}
+#bottomleft {
+	padding-left:30px;
+}
 #searchbox {
 	width:42.5%;
 	line-height:36px;
