@@ -2,24 +2,39 @@
 	font-family: Arial, sans-serif;
 	font-size:13px;
 }
-#stupid {
+#topright {
 	position:relative;
-	float:right;
 	vertical-align: middle;
 	text-align: middle;
+	float:right;
+	padding: 0px 38px;
 }
 a {
 	text-decoration:none;
 	color:#000;
 	font-size: small;
+	opacity: .75;
 }
 a:hover {
 	text-decoration: underline;
 }
 #speciallink {
 	color:blue;
+	opacity: 1;
+}
+#signin {
+	background-color:#4285f4;
+	color:#fff;
+	font-weight:bold;
+	border-radius:2px;
+	border:transparent solid 1px;
+	padding:0px 12px;
+	line-height:26px;
+	outline:none;
+	width:71px;
 }
 #header {
+	margin-top:8px;
 	height:30px;
 	width:1366px;
 	position:absolute;
