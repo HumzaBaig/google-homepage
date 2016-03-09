@@ -1,11 +1,32 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size:13px;
+}
+#stupid {
+	position:relative;
+	float:right;
+	vertical-align: middle;
+	text-align: middle;
+}
 a {
 	text-decoration:none;
+	color:#000;
+	font-size: small;
+}
+a:hover {
+	text-decoration: underline;
+}
+#speciallink {
+	color:blue;
+}
+#header {
+	height:30px;
+	width:1366px;
+	position:absolute;
 }
 p {
 	position:relative;
-
 	font-size:small;
-	font-family:Arial, sans-serif;
 }
 .button {
 	color:#757575;
@@ -15,9 +36,7 @@ p {
 	width:132px;
 	border:1px solid #f2f2f2;
 	border-radius:2px;
-	font-family:Arial, sans-serif;
 	font-weight:bold;
-	font-size:13px;
 	line-height:27px;
 	padding:0px 16px;
 	text-align:center;
@@ -29,22 +48,18 @@ p {
 	color:#222;
 	border:1px solid #d9d9d9;
 }
-#middle {
+ #middle {
+ 	position: absolute;
 	margin-top:90px;
 	height:378px;
-	width:1354px;
-}
-img {
-	margin-left:419px;
-}
+	width:1354px; 
+} 
 #searchbox {
-	margin-left:385px;
 	width:42.5%;
 	line-height:36px;
 	margin-top:25px;
 	border:solid #d9d9d9 1px;
 	border-radius:0;
-	font-family:Arial, sans-serif;
 	font-size:14px;
 	background-color:transparent;
 	color:#000;
